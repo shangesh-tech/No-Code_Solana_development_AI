@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Solana-AI - No-code Solana smart contract Generator
 
-## Getting Started
+Solana-AI is a web application that uses AI to generate Solana smart contracts based on natural language descriptions. Simply describe the functionality you want, and this will generate the complete Anchor Rust code for your Solana program.
 
-First, run the development server:
+# Live-Demo - https://solana-ai-gray.vercel.app
+# ![Youtube Link][https://solana-ai-gray.vercel.app] 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **AI-Powered Code Generation**: Leverages the Groq llama 3.3 70b model to generate high-quality Solana smart contract code
+- **Interactive UI**: User-friendly interface with a modern design
+- **Code Viewer**: Syntax highlighting for Rust and other languages with line numbers
+- **File Explorer**: Navigate through the generated project files easily
+- **Copy Code**: One-click code copying with visual feedback
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js 15, React 19, TailwindCSS 4
+- **AI Integration**: Groq API with llama 3.3 70b model
+- **Syntax Highlighting**: react-syntax-highlighter
+- **API**: Next.js Edge API routes
 
-## Learn More
+## Example Prompts
 
-To learn more about Next.js, take a look at the following resources:
+- "Create a token staking program with rewards distribution"
+- "Develop an NFT marketplace with royalties and auction functionality"
+- "Build a DAO voting system with proposal creation and execution"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/app` - Next.js app router pages and API routes
+- `/components` - React components for the UI
+- `/lib` - Utility functions for AI prompt building and response parsing
+- `/public` - Static assets
 
-## Deploy on Vercel
+## Acknowledgements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Groq](https://groq.com) for their powerful LLM API
+- [Next.js](https://nextjs.org) for the React framework
+- [TailwindCSS](https://tailwindcss.com) for styling
+- [React Syntax Highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter) for code highlighting
