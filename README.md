@@ -3,6 +3,7 @@
 Solana-AI is a web application that uses AI to generate Solana smart contracts based on natural language descriptions. Simply describe the functionality you want, and this will generate the complete Anchor Rust code for your Solana program.
 
 # Live-Demo - https://solana-ai-gray.vercel.app
+# [YouTube live Demo](https://www.youtube.com/watch?v=cymhGz79y7g)
 
 
 ## Features
